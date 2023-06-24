@@ -3,8 +3,17 @@
     //Peça para o usuário informar uma letra e diga, ao final do programa, se ele digitou uma vogal ou não.
     //ENTRADA
 
+    const letra = prompt(`Informe uma letra:`).toLowerCase();
+
 
     //PROCESSAMENTO
+
+    if (letra === "a" || letra === "e" || letra === "i"|| letra === "o" || letra === "u"){
+        alert (`Sua letra é uma vogal.`);
+    }
+    else {
+        alert (`Sua letra não é uma vogal.`);
+    }
 
 
     //SAÍDA
