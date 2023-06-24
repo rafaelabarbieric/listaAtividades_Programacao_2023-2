@@ -5,11 +5,21 @@
     //ENTRADA
 
     const numero1 = Number (prompt (`Informe um número:`));
-    const numero2 = Number (prompt ( Informe un segundo número: ));
+    const numero2 = Number(prompt(`Informe um segundo número:`));
+    const numero3 = Number(prompt(`Informe um terceiro número:`));
     
 
 
     //PROCESSAMENTO
+
+    if (numero1 > numero2 && numero1 > numero3){
+	    alert (`O ${numero1} é o maior.`);
+    }
+    else if (numero2 > numero1 && numero2 > numero3){
+	    alert (`O ${numero2} é o maior.`);
+    }
+    else{
+	    alert (`O ${numero3} é o maior.`);
 
 
     //SAÍDA
